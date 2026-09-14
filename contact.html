@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astana Kindergarden - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Astana Kindergarden</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        
+        <section class="pricing-table">
+            <h2>Programs & Pricing</h2>
+            <table>
+                <caption>Monthly Tuition Fees for Academic Year</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Program</th>
+                        <th scope="col">Age Group</th>
+                        <th scope="col">Half Day (AM)</th>
+                        <th scope="col">Full Day</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Toddler Care</th>
+                        <td>1.5 - 3 years</td>
+                        <td>$300</td>
+                        <td>$550</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Preschool</th>
+                        <td>3 - 5 years</td>
+                        <td>$250</td>
+                        <td>$450</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pre-K Program</th>
+                        <td>5 - 6 years</td>
+                        <td colspan="2" class="center-align">Only Full Day Available ($500)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">After School Club</th>
+                        <td>4 - 8 years</td>
+                        <td>$150</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" rowspan="2">Summer Camp</th>
+                        <td>3 - 5 years</td>
+                        <td colspan="2" class="center-align">$600/month</td>
+                    </tr>
+                    <tr>
+                        <td>5 - 8 years</td>
+                        <td colspan="2" class="center-align">$650/month</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="2">Registration Fee (Annual)</th>
+                        <td colspan="2" class="center-align">$100 (Non-refundable)</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Parent & Child Information</legend>
+                    
+                    <div class="form-group">
+                        <label for="parent-name">Parent's Full Name:</label>
+                        <input type="text" id="parent-name" name="parent-name" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="child-age">Child's Age:</label>
+                        <input type="number" id="child-age" name="child-age" min="1" max="6">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="start-date">Desired Start Date:</label>
+                        <input type="date" id="start-date" name="start-date">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="favorite-color">Favorite Color (For Nametag):</label>
+                        <input type="color" id="favorite-color" name="favorite-color" value="#ff9900">
+                    </div>
+                    
+                    <div class="form-group">
+                        <p>Preferred Program:</p>
+                        <label for="prog-toddler">
+                            <input type="radio" id="prog-toddler" name="program" value="toddler"> Toddler Care
+                        </label>
+                        <label for="prog-preschool">
+                            <input type="radio" id="prog-preschool" name="program" value="preschool"> Preschool
+                        </label>
+                        <label for="prog-prek">
+                            <input type="radio" id="prog-prek" name="program" value="prek"> Pre-K
+                        </label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subscribe">
+                            <input type="checkbox" id="subscribe" name="subscribe" value="yes"> Subscribe to newsletter
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Additional Questions:</label>
+                        <textarea id="message" name="message" rows="4" maxlength="500"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit Inquiry</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Astana Kindergarden. All rights reserved.</p>
+    </footer>
+</body>
+</html>
