@@ -1,10 +1,3 @@
-/* Color Palette 
-   Primary: #4CAF50 (Hex)
-   Secondary: rgb(255, 152, 0) (RGB)
-   Background: hsl(0, 0%, 98%) (HSL)
-   Text: darkslategray (Name)
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +5,8 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* font family 1 */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font family 1 */
     color: darkslategray;
     background-color: hsl(0, 0%, 98%);
     line-height: 1.6;
@@ -49,7 +43,8 @@ nav a {
     transition: background-color 0.3s, transform 0.2s;
 }
 
-nav a:hover, nav a.active {
+nav a:hover,
+nav a.active {
     background-color: rgb(255, 152, 0);
     transform: translateY(-2px);
 }
@@ -57,11 +52,15 @@ nav a:hover, nav a.active {
 /* Main Content */
 main {
     padding: 2rem 5%;
-    min-height: 80vh; /* Using vh unit */
+    min-height: 80vh;
+    /* Using vh unit */
 }
 
-h1, h2, h3 {
-    font-family: 'Georgia', serif; /* font family 2 */
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', serif;
+    /* font family 2 */
     margin-bottom: 1rem;
     color: #4CAF50;
     font-weight: bold;
@@ -72,21 +71,27 @@ h1 {
     text-align: center;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
     margin-bottom: 1rem;
 }
 
-ul, ol {
+ul,
+ol {
     margin-left: 2rem;
 }
 
 img {
-    max-width: 100%; /* Using % unit */
+    max-width: 100%;
+    /* Using % unit */
     height: auto;
     border-radius: 8px;
     margin-top: 1rem;
-    border: 3px solid #ccc; /* Box model border */
-    padding: 5px; /* Box model padding */
+    border: 3px solid #ccc;
+    /* Box model border */
+    padding: 5px;
+    /* Box model padding */
 }
 
 /* About Page Specific */
@@ -121,7 +126,7 @@ table {
     border-collapse: collapse;
     margin: 2rem 0;
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 caption {
@@ -130,7 +135,8 @@ caption {
     margin-bottom: 1rem;
 }
 
-th, td {
+th,
+td {
     padding: 12px 15px;
     border: 1px solid #ddd;
     text-align: left;
@@ -146,7 +152,8 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr:hover {
-    background-color: #e6f7e6; /* Readable rows hover */
+    background-color: #e6f7e6;
+    /* Readable rows hover */
 }
 
 .center-align {
@@ -158,7 +165,7 @@ tbody tr:hover {
     background-color: white;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -191,10 +198,12 @@ input[type="number"],
 input[type="date"],
 textarea {
     width: 100%;
-    padding: 10px; /* Using px unit */
+    padding: 10px;
+    /* Using px unit */
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 1rem; /* Using rem unit */
+    font-size: 1rem;
+    /* Using rem unit */
 }
 
 input[type="color"] {
@@ -202,10 +211,12 @@ input[type="color"] {
     border: none;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     outline: none;
     border-color: rgb(255, 152, 0);
-    box-shadow: 0 0 5px rgba(255, 152, 0, 0.5); /* Visible :focus state */
+    box-shadow: 0 0 5px rgba(255, 152, 0, 0.5);
+    /* Visible :focus state */
 }
 
 .submit-btn {
@@ -213,7 +224,8 @@ input:focus, textarea:focus {
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 1.1em; /* Using em unit */
+    font-size: 1.1em;
+    /* Using em unit */
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
